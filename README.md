@@ -13,19 +13,19 @@ The application is designed to be reproducible, extensible, and deployment-ready
 
 ## 2- Key Features
 
-1- Mixed Reality user interface using MRTK
++ Mixed Reality user interface using MRTK
 
-2- UWP-compatible build pipeline (IL2CPP, ARM64)
++ UWP-compatible build pipeline (IL2CPP, ARM64)
 
-3- Optional visual overlay for model input/output
++ Optional visual overlay for model input/output
 
-4- Toggle-based UI controls for enabling/disabling overlays
++ Toggle-based UI controls for enabling/disabling overlays
 
-5- Confidence visualization (e.g., confidence label)
++ Confidence visualization (e.g., confidence label)
 
-6- OpenXR-based XR configuration (no legacy XR)
++ OpenXR-based XR configuration (no legacy XR)
 
-7- Fully documented build and deployment steps
++ Fully documented build and deployment steps
 
 ## 3- System Architecture
 
@@ -61,17 +61,17 @@ The application is designed to be reproducible, extensible, and deployment-ready
 
 + Unity Editor (Unity 2021.3.45f2)
 
-3- Microsoft Mixed Reality Toolkit (MRTK)
++ Microsoft Mixed Reality Toolkit (MRTK)
 
 + Visual Studio 2022
 
- + Universal Windows Platform development
+  + Universal Windows Platform development
 
- + Desktop development with C++
+  + Desktop development with C++
 
- + Windows 10 SDK (10.0.19041)
+  + Windows 10 SDK (10.0.19041)
 
- + ARM64 build tools
+  + ARM64 build tools
 
 ### Hardware (Optional)
 
