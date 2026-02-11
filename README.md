@@ -3,7 +3,7 @@
 ⟦Your Project Name Here⟧
 
 
-# Overview
+## 1- Overview
 
 This project presents a Mixed Reality application developed using Unity and the Microsoft Mixed Reality Toolkit (MRTK), targeting HoloLens 2 and the Universal Windows Platform (UWP).
 
@@ -11,7 +11,7 @@ The system integrates real-time visual processing with an interactive mixed real
 The application is designed to be reproducible, extensible, and deployment-ready.
 
 
-# Key Features
+## 2- Key Features
 
 1- Mixed Reality user interface using MRTK
 
@@ -27,83 +27,83 @@ The application is designed to be reproducible, extensible, and deployment-ready
 
 7- Fully documented build and deployment steps
 
-# System Architecture
+## 3- System Architecture
 
-## Main components: 
+### Main components: 
 
-1- Unity Engine – Core application logic and rendering
++ Unity Engine – Core application logic and rendering
 
-2- MRTK Foundation – Input, spatial interaction, UI
++ MRTK Foundation – Input, spatial interaction, UI
 
-3- OpenXR Plugin – XR runtime abstraction
++ OpenXR Plugin – XR runtime abstraction
 
-4- UWP Build Target – HoloLens deployment
++ UWP Build Target – HoloLens deployment
 
-5- Visual Studio 2022 – App packaging and deployment
++ Visual Studio 2022 – App packaging and deployment
 
-## High-level flow:
+### High-level flow:
 
-1- Unity scene initializes MRTK and OpenXR
++ Unity scene initializes MRTK and OpenXR
 
-2- User interacts with UI elements (toggles, buttons)
++ User interacts with UI elements (toggles, buttons)
 
-3- Visual overlays and classification results are rendered
++ Visual overlays and classification results are rendered
 
-4- Application is built via IL2CPP for ARM64
++ Application is built via IL2CPP for ARM64
 
-5- Visual Studio generates UWP AppX/MSIX packages
++ Visual Studio generates UWP AppX/MSIX packages
 
-# Requirements
+## 4- Requirements
 
-## Software
+### Software
 
-1- Unity Hub
++ Unity Hub
 
-2- Unity Editor (Unity 2021.3.45f2)
++ Unity Editor (Unity 2021.3.45f2)
 
 3- Microsoft Mixed Reality Toolkit (MRTK)
 
-4- Visual Studio 2022
++ Visual Studio 2022
 
-+ Universal Windows Platform development
+ + Universal Windows Platform development
 
-+ Desktop development with C++
+ + Desktop development with C++
 
-+ Windows 10 SDK (10.0.19041)
+ + Windows 10 SDK (10.0.19041)
 
-+ ARM64 build tools
+ + ARM64 build tools
 
-## Hardware (Optional)
+### Hardware (Optional)
 
-1- Microsoft HoloLens 2
++ Microsoft HoloLens 2
 
-# Unity Project Settings (Required)
+## 5- Unity Project Settings (Required)
 
 Before building, ensure the following settings are configured:
 
-## Build Settings
+### Build Settings
 
-1- Platform: Universal Windows Platform (UWP)
++ Platform: Universal Windows Platform (UWP)
 
-2- Architecture: ARM64
++ Architecture: ARM64
 
-3- Build Type: D3D
++ Build Type: D3D
 
-4- Target Device: HoloLens
++ Target Device: HoloLens
 
-5- Scripting Backend: IL2CPP
++ Scripting Backend: IL2CPP
 
-## Player Settings
+### Player Settings
 
-1- API Compatibility Level: .NET Standard 2.1
++ API Compatibility Level: .NET Standard 2.1
 
-2- Incremental GC: Enabled
++ Incremental GC: Enabled
 
-3- XR Plug-in Management:
++ XR Plug-in Management:
 
-    OpenXR enabled
+ + OpenXR enabled
 
-    Initialize XR on Startup: Enabled
+ + Initialize XR on Startup: Enabled
 
 🧪 Build & Deployment Instructions
 Step 1 – Unity Build
