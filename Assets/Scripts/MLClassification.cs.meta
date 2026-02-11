@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a58967fcfdada7e4f87a53f3c2fa910a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - modelAsset: {fileID: 5022602860645237092, guid: c9b9075a6e96e6244b0e88cf6ad40342, type: 3}
+  - inferenceCamera: {instanceID: 0}
+  - inputTexture: {fileID: 8400000, guid: d223204d5ac79c14eacedc9a781f7d89, type: 2}
+  - resultTMP: {instanceID: 0}
+  - segmentation: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

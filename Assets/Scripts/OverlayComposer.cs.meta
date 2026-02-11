@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6cdda215454816544bebb562cac56b3f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - inputRT: {fileID: 8400000, guid: d223204d5ac79c14eacedc9a781f7d89, type: 2}
+  - maskRT: {fileID: 8400000, guid: f738aa898e0fa454880899b7cc4129e9, type: 2}
+  - outputRT: {fileID: 8400000, guid: 25769f2bc6fa13e4a8cab9c1375ca587, type: 2}
+  - overlayMaterial: {fileID: 2100000, guid: 421dbd8a14396424fbfac57c58cc28a4, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

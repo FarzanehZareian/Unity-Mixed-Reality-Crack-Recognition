@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0daa5eaf358990c438bf5da5f901c953
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - segmentationModel: {fileID: 5022602860645237092, guid: 53949675beb821e4a95144e004772623, type: 3}
+  - inputTexture: {fileID: 8400000, guid: d223204d5ac79c14eacedc9a781f7d89, type: 2}
+  - maskTexture: {fileID: 8400000, guid: f738aa898e0fa454880899b7cc4129e9, type: 2}
+  - uncertaintyTexture: {fileID: 8400000, guid: b6aba1721382f12438aa22d385ecf556, type: 2}
+  - blurMaterial: {instanceID: 0}
+  - dilateMaterial: {instanceID: 0}
+  - uncertaintyMaterial: {fileID: 2100000, guid: 805596444ac224d4b947ddca50540acf, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
