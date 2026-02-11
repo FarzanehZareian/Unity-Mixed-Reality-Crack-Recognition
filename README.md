@@ -188,8 +188,16 @@ Before building, ensure the following settings are configured:
 
 3. Performance profiling is limited without hardware
 
-## 10- License
+## License
 
 This project is licensed under the MIT License.
 
 (See the LICENSE file for details)
+
+## Author
+
+Farzaneh Zareian
+
+Amirkabir University of Technology/ Department of Civil and Environmental Engineering
+
+far.zareian@gmail.com
