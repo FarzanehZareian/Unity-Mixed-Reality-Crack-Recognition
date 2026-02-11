@@ -135,10 +135,13 @@ Runtime deployment was not performed due to lack of physical device (e.g., HoloL
 ### License
 
 This project is licensed under the MIT License.
+
 (See the LICENSE file for details)
 
 ### Author
 
 Farzaneh Zareian 
+
 Amirkabir University of Technology, Department of Civil and Environmental Engineering
+
 far.zareian@gmail.com
