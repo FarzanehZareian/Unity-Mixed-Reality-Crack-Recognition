@@ -1,147 +1,147 @@
-## *Integration of Deep Learning-Based Crack Recognition with Mixed Reality for Enhanced Structural Inspection of Masonry Structures*
+# Integration of Deep Learning-Based Crack Recognition with Mixed Reality for Structural Inspection
 
-## 1- Overview
+![Unity](https://img.shields.io/badge/Unity-2021.3%20LTS-black?logo=unity)
+![Platform](https://img.shields.io/badge/Platform-UWP-blue)
+![Architecture](https://img.shields.io/badge/Architecture-ARM64-orange)
+![Backend](https://img.shields.io/badge/Backend-IL2CPP-success)
+![XR](https://img.shields.io/badge/XR-OpenXR-purple)
+![Build Status](https://img.shields.io/badge/UWP%20Build-Passing-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-This project presents a Mixed Reality application developed using Unity and the Microsoft Mixed Reality Toolkit (MRTK), targeting HoloLens 2 and the Universal Windows Platform (UWP).
+---
 
-The system integrates real-time visual processing with an interactive mixed reality interface, enabling users to visualize classification results, overlays, and confidence indicators directly within the physical environment.
+## Overview
 
-The application is designed to be reproducible, extensible, and deployment-ready.
+This repository presents a Mixed Reality (MR) inspection system developed in Unity using the Microsoft Mixed Reality Toolkit (MRTK) and OpenXR. The application targets Microsoft HoloLens 2 via the Universal Windows Platform (UWP).
 
+The system integrates deep learning–based crack classification and segmentation with real-time holographic visualization. Model outputs are rendered as overlays within the user’s physical environment, enabling intuitive and interactive structural inspection.
 
-## 2- Key Features
+The project is structured for reproducibility, modularity, and deployment readiness.
 
-1. Mixed Reality user interface using MRTK
+---
 
-2. UWP-compatible build pipeline (IL2CPP, ARM64)
+## Key Features
 
-3. Visual overlay for model output
+- Mixed Reality interface using MRTK
+- Real-time ONNX model inference via Unity Barracuda
+- Crack classification and segmentation
+- Overlay visualization of predictions
+- Confidence and uncertainty visualization
+- Toggle-based UI controls for overlays
+- OpenXR-based XR configuration (no legacy XR pipeline)
+- UWP deployment pipeline (IL2CPP + ARM64)
+- Fully documented build and configuration steps
 
-4. Toggle-based UI controls for enabling/disabling overlays
+---
 
-5. Confidence visualization (e.g., confidence label, uncertainty heatmap)
+## System Architecture
 
-6. OpenXR-based XR configuration (no legacy XR)
+The system consists of the following components:
 
-7. Fully documented build and deployment steps
+- **Unity Engine** – Core application logic and rendering  
+- **Barracuda Inference Engine** – ONNX model execution  
+- **MRTK Foundation** – Spatial interaction and UI system  
+- **OpenXR Plugin** – XR runtime abstraction  
+- **UWP Build Target** – HoloLens deployment platform  
+- **Visual Studio 2022** – Application packaging and validation  
 
-## 3- System Architecture
+The architecture separates input acquisition, inference processing, visualization, and deployment layers to ensure modularity and extensibility.
 
-### Main components: 
+---
 
-+ ***Unity Engine*** – Core application logic and rendering
+## Software Requirements
 
-+ ***MRTK Foundation*** – Input, spatial interaction, UI
+- Unity 2021.3 LTS (tested on 2021.3.45f2)
+- Microsoft Mixed Reality Toolkit (MRTK)
+- OpenXR Plugin
+- Visual Studio 2022
+  - Desktop development with C++
+  - Universal Windows Platform tools
+  - Windows 10 SDK (10.0.19041)
+  - ARM64 build tools (v143)
 
-+ ***OpenXR Plugin*** – XR runtime abstraction
+---
 
-+ ***UWP Build Target*** – HoloLens deployment
+## Optional Hardware
 
-+ ***Visual Studio 2022*** – App packaging and deployment
+- Microsoft HoloLens 2
 
-## 4- Requirements
+Note: Physical hardware is required only for live deployment testing. Build validation can be performed without the device.
 
-### Software
+---
 
-+ Unity 2021.3.45f2
+## Unity Configuration
 
-+ Microsoft Mixed Reality Toolkit (MRTK)
-
-+ Visual Studio 2022
-
-  + Universal Windows Platform development
-
-  + Desktop development with C++
-
-  + Windows 10 SDK (10.0.19041)
-
-  + ARM64 build tools
-
-### Hardware (Optional)
-
-+ Microsoft HoloLens 2
-
-## 5- Unity Project Settings 
-
-Before building, ensure the following settings are configured:
+Before building, ensure the following settings:
 
 ### Build Settings
 
-+ Platform: Universal Windows Platform (UWP)
-
-+ Architecture: ARM64
-
-+ Build Type: D3D
-
-+ Target Device: HoloLens
-
-+ Scripting Backend: IL2CPP
+- Platform: Universal Windows Platform (UWP)
+- Architecture: ARM64
+- Build Type: D3D11
+- Target Device: HoloLens
+- Scripting Backend: IL2CPP
 
 ### Player Settings
 
-+ API Compatibility Level: .NET Standard 2.1
+- API Compatibility Level: .NET Standard 2.1
+- Incremental GC: Enabled
+- XR Plug-in Management:
+  - OpenXR enabled
+  - Legacy XR disabled
 
-+ Incremental GC: Enabled
+---
 
-+ XR Plug-in Management:
-
- + OpenXR enabled
-
-## 6- Build Instructions
+## Build Instructions
 
 ### Step 1 – Unity Build
 
-+ Open the project in Unity
-
-+ Switch platform to UWP
-
-+ Open Build Settings
-
-+ Click Build
-
-+ Choose an empty output folder
+1. Open the project in Unity.
+2. Switch platform to **Universal Windows Platform**.
+3. Confirm:
+   - Architecture = ARM64
+   - Backend = IL2CPP
+4. Click **Build**.
+5. Select an empty output directory.
 
 ### Step 2 – Visual Studio
 
-+ Open the generated solution (.sln file)
+1. Open the generated `.sln` file.
+2. Set:
+   - Configuration: **Release**
+   - Architecture: **ARM64**
+   - Deployment target: **Local Machine** (or Remote Device if available)
+3. Build the solution.
 
-+ Set configuration:
+Optional: Create App Packages for sideloading or Store submission.
 
-+ Release
+---
 
-+ ARM64
+## Deployment Readiness
 
-+ Remote Machine
+The project has been validated using:
 
-+ Build the solution
+- Unity 2021.3 LTS
+- IL2CPP backend
+- ARM64 UWP configuration
+- OpenXR runtime
+- Visual Studio 2022 (v143 toolchain)
 
-+ (Optional) Create App Packages for Store or sideloading
+A successful UWP build confirms deployment readiness.
 
-## 8- Deployment Readiness Checklist
+---
 
-✅ Clean Unity build with no blocking errors
+## Validation Status
 
-✅ IL2CPP + ARM64 configured
+| Component | Status |
+|-----------|--------|
+| Unity Compilation | ✅ Pass |
+| UWP ARM64 Build | ✅ Pass |
+| Visual Studio Solution | ✅ Pass |
+| App Packaging | ✅ Supported |
+| Device Deployment | ⚠ Requires Hardware |
 
-✅ OpenXR enabled (no legacy XR)
+---
 
-✅ Visual Studio solution builds successfully
+## Repository Structure
 
-✅ App package generation supported
-
-**Note:** The repository validates successful compilation and build.  
-Runtime deployment was not performed due to lack of physical device (e.g., HoloLens).
-
-### License
-
-This project is licensed under the MIT License.
-
-(See the LICENSE file for details)
-
-### Author
-
-Farzaneh Zareian 
-
-Amirkabir University of Technology, Department of Civil and Environmental Engineering
-
-far.zareian@gmail.com
