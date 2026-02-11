@@ -145,3 +145,32 @@ A successful UWP build confirms deployment readiness.
 
 ## Repository Structure
 
+Assets/ Unity project assets
+Packages/ Unity package manifest
+ProjectSettings/ Unity configuration
+Docs/ Architecture diagrams and documentation
+Screenshots/ Visual references
+
+---
+
+## Limitations
+
+Deployment validation on physical hardware requires access to a HoloLens 2 device. Performance profiling has been limited to editor testing and build validation environments.
+
+---
+
+## License
+
+This project is released under the MIT License.  
+See the LICENSE file for full details.
+
+---
+
+## Author
+
+Farzaneh Zareian  
+Amirkabir University of Technology  
+Department of Civil and Environmental Engineering  
+
+Email: far.zareian@gmail.com
+
