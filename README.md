@@ -1,7 +1,6 @@
-📘 Project Title
+# Project Title
 
-⟦Your Project Name Here⟧
-
+Integration of Deep Learning-Based Crack Recognition with Mixed Reality for Enhanced Structural Inspection of Masonry Structures
 
 ## 1- Overview
 
@@ -188,13 +187,13 @@ Before building, ensure the following settings are configured:
 
 3. Performance profiling is limited without hardware
 
-## License
+### License
 
 This project is licensed under the MIT License.
 
 (See the LICENSE file for details)
 
-## Author
+### Author
 
 Farzaneh Zareian
 
