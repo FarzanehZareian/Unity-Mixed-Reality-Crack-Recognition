@@ -30,6 +30,7 @@ The application is designed to be reproducible, extensible, and deployment-ready
 # System Architecture
 
 ## Main components: 
+
 1- Unity Engine – Core application logic and rendering
 
 2- MRTK Foundation – Input, spatial interaction, UI
@@ -52,58 +53,57 @@ The application is designed to be reproducible, extensible, and deployment-ready
 
 5- Visual Studio generates UWP AppX/MSIX packages
 
-🧰 Requirements
-Software
+# Requirements
 
-Unity Hub
+## Software
 
-Unity Editor ⟦VERSION⟧
-(Recommended: Unity 2021 LTS or 2022 LTS)
+1- Unity Hub
 
-Microsoft Mixed Reality Toolkit (MRTK)
+2- Unity Editor (Unity 2021.3.45f2)
 
-Visual Studio 2022
+3- Microsoft Mixed Reality Toolkit (MRTK)
 
-Universal Windows Platform development
+4- Visual Studio 2022
 
-Desktop development with C++
+    Universal Windows Platform development
 
-Windows 10/11 SDK (10.0.19041 or newer)
+    Desktop development with C++
 
-ARM64 build tools
+    Windows 10 SDK (10.0.19041)
 
-Hardware (Optional)
+    ARM64 build tools
 
-Microsoft HoloLens 2
-(Project can be built and validated without a physical device)
+## Hardware (Optional)
 
-⚙️ Unity Project Settings (Required)
+1- Microsoft HoloLens 2
+
+# Unity Project Settings (Required)
 
 Before building, ensure the following settings are configured:
 
-Build Settings
+## Build Settings
 
-Platform: Universal Windows Platform (UWP)
+1- Platform: Universal Windows Platform (UWP)
 
-Architecture: ARM64
+2- Architecture: ARM64
 
-Build Type: D3D
+3- Build Type: D3D
 
-Target Device: HoloLens
+4- Target Device: HoloLens
 
-Scripting Backend: IL2CPP
+5- Scripting Backend: IL2CPP
 
-Player Settings
+## Player Settings
 
-API Compatibility Level: .NET Standard 2.1
+1- API Compatibility Level: .NET Standard 2.1
 
-Incremental GC: Enabled
+2- Incremental GC: Enabled
 
-XR Plug-in Management:
+3- XR Plug-in Management:
 
-OpenXR enabled
+    OpenXR enabled
 
-Initialize XR on Startup: Enabled
+    Initialize XR on Startup: Enabled
 
 🧪 Build & Deployment Instructions
 Step 1 – Unity Build
