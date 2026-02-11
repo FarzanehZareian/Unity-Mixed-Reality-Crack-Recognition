@@ -1,6 +1,6 @@
 # Project Title
 
-### Integration of Deep Learning-Based Crack Recognition with Mixed Reality for Enhanced Structural Inspection of Masonry Structures 
+### *Integration of Deep Learning-Based Crack Recognition with Mixed Reality for Enhanced Structural Inspection of Masonry Structures*
 
 ## 1- Overview
 
