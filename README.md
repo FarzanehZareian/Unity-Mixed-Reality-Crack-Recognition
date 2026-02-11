@@ -138,28 +138,35 @@ Before building, ensure the following settings are configured:
 ## 7- Repository Structure
 
 📁 ProjectRoot
+
  ├── 📁 Assets
+ 
  ├── 📁 Packages
+ 
  ├── 📁 ProjectSettings
+ 
  ├── 📁 Documentation
+
  ├── README.md
+ 
  ├── .gitignore
+ 
  └── LICENSE
 
 
 ⚠️ The following folders are intentionally excluded from Git:
 
-Library/
++ Library/
 
-Temp/
++ Temp/
 
-Obj/
++ Obj/
 
-Build/
++ Build/
 
-Logs/
++ Logs/
 
-🚀 Deployment Readiness Checklist
+## 8- Deployment Readiness Checklist
 
 ✅ Clean Unity build with no blocking errors
 
@@ -173,15 +180,16 @@ Logs/
 
 ✅ Documentation provided for reviewers
 
-🧾 Known Limitations
+## 9- Limitations
 
-Some features may require a physical HoloLens for full validation
+1. Some features may require a physical HoloLens for full validation
 
-Visual Studio UWP tooling depends on installed workloads
+2. Visual Studio UWP tooling depends on installed workloads
 
-Performance profiling is limited without hardware
+3. Performance profiling is limited without hardware
 
-📄 License
+## 10- License
 
-This project is licensed under the ⟦MIT License⟧.
-See the LICENSE file for details.
+This project is licensed under the MIT License.
+
+(See the LICENSE file for details)
