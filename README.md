@@ -163,7 +163,7 @@ A successful UWP build confirms deployment readiness.
 
 ## Repository Structure
 
-Assets/           → Unity project assets
+Assets/           # Unity project assets
 
 Packages/         → Unity package manifest
 
