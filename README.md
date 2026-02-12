@@ -165,20 +165,15 @@ A successful UWP build confirms deployment readiness.
 
 This repository follows the standard Unity project layout:
 
-├── Assets/  
-│   Contains all runtime content including scripts, scenes, prefabs, materials, and resources.
+📂 Assets/  → Contains all runtime content including scripts, scenes, prefabs, materials, and resources.
 
-├── Packages/  
-│   Unity Package Manager configuration (manifest.json, lock files).
+📦 Packages/  → Unity Package Manager configuration (manifest.json, lock files).
 
-├── ProjectSettings/  
-│   Engine-level configuration and project-wide settings.
+⚙️ ProjectSettings/  → Engine-level configuration and project-wide settings.
 
-├── Docs/  
-│   Technical documentation, architecture diagrams, and design references.
+📝 Docs/  → Architecture diagrams.
 
-└── Screenshots/  
-    Gameplay previews and visual documentation.
+🖼️ Screenshots/  → Gameplay previews and visual references.
 
 ---
 
