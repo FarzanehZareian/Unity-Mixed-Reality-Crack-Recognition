@@ -178,7 +178,7 @@ This repository follows the standard Unity project layout:
 │   Technical documentation, architecture diagrams, and design references.
 
 └── Screenshots/  
-│    Gameplay previews and visual documentation.
+    Gameplay previews and visual documentation.
 
 ---
 
