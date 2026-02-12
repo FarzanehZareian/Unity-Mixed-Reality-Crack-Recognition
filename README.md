@@ -23,6 +23,8 @@ The project is structured for reproducibility, modularity, and deployment readin
 <img width="207" height="472" alt="image" src="https://github.com/user-attachments/assets/1ec50433-46c0-4ba8-adf3-fb7482b3c8e0" />
 <img width="207" height="472" alt="image" src="https://github.com/user-attachments/assets/54c01ef5-d58a-4757-b636-5b4af2326d8e" />
 
+  <em>Figure 1: Crack classification and segmentation results on videos in Unity.</em>
+
 ---
 
 ## Key Features
