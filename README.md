@@ -19,7 +19,7 @@ The system integrates deep learning–based crack classification and segmentatio
 The project is structured for reproducibility, modularity, and deployment readiness.
 
 <p align="center">
-  <img width="206" height="472" alt="image" src="https://github.com/user-attachments/assets/4df789a9-692a-4082-81d0-ef22149b6fe2" width="80%" height="80%">
+  <img width="206" height="472" alt="image" src="https://github.com/user-attachments/assets/4df789a9-692a-4082-81d0-ef22149b6fe2" width="80%" height="80%" />
   <img width="206" height="472" alt="image" src="https://github.com/user-attachments/assets/ec3d7431-a834-4e57-a2d2-270dda895597" />
   <img width="207" height="472" alt="image" src="https://github.com/user-attachments/assets/1ec50433-46c0-4ba8-adf3-fb7482b3c8e0" />
   <img width="207" height="472" alt="image" src="https://github.com/user-attachments/assets/54c01ef5-d58a-4757-b636-5b4af2326d8e" />
