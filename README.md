@@ -18,7 +18,8 @@ The system integrates deep learning–based crack classification and segmentatio
 
 The project is structured for reproducibility, modularity, and deployment readiness.
 
-![Main Menu](Screenshots/Unity_Scene_Runtime_1.png)
+<img width="206" height="472" alt="image" src="https://github.com/user-attachments/assets/791321d1-f368-459a-8bc7-a2a1929edf97" />
+<img width="206" height="472" alt="image" src="https://github.com/user-attachments/assets/791321d1-f368-459a-8bc7-a2a1929edf97" />
 
 ---
 
