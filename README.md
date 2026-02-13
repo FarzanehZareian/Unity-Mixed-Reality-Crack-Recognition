@@ -7,7 +7,7 @@
 ![XR](https://img.shields.io/badge/XR-OpenXR-yellow)
 ![Build Status](https://img.shields.io/badge/UWP%20Build-Passing-brown)
 ![License](https://img.shields.io/badge/License-MIT-violet)
-![Release](https://img.shields.io/github/v/release/FarzanehZareian/Unity-Mixed-Reality-Crack-Detection-orange)
+![Release](https://img.shields.io/github/v/release/FarzanehZareian/Unity-Mixed-Reality-Crack-Detection)
 
 ---
 
