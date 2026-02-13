@@ -175,8 +175,6 @@ This repository follows the standard Unity project layout:
 
 ⚙️ ProjectSettings/  → Engine-level configuration and project-wide settings.
 
-📝 Docs/  → Architecture diagrams.
-
 🖼️ Screenshots/  → Gameplay previews and visual references.
 
 ---
