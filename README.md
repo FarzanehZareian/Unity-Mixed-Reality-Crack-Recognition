@@ -63,7 +63,12 @@ The system is organized into four modular layers to ensure clarity, scalability,
    - Manages Unity IL2CPP build and ARM64 UWP packaging.  
    - Enables deployment to HoloLens 2 via Visual Studio.
 
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/5ea64bea-2f57-451a-8cb1-ab21bec1207c" />
+<p align="center">
+  <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/5ea64bea-2f57-451a-8cb1-ab21bec1207c" />
+  <br>
+  <strong>Figure 2:</strong> End-to-end architecture of a mixed reality crack inspection system.</em>
+</p>
+
 
 This layered approach complements the existing components:
 
