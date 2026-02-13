@@ -5,7 +5,7 @@
 ![Architecture](https://img.shields.io/badge/Architecture-ARM64-purple)
 ![Backend](https://img.shields.io/badge/Backend-IL2CPP-success)
 ![XR](https://img.shields.io/badge/XR-OpenXR-yellow)
-![Build Status](https://img.shields.io/badge/UWP%20Build-Passing-brown)
+![Build Status](https://img.shields.io/badge/UWP%20Build-Passing-red)
 ![License](https://img.shields.io/badge/License-MIT-violet)
 
 ---
