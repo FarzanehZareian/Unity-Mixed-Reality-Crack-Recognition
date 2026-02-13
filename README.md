@@ -144,7 +144,7 @@ Before building, ensure the following settings:
 2. Set:
    - Configuration: **Release**
    - Architecture: **ARM64**
-   - Deployment target: **Local Machine** (or Remote Device if available)
+   - Deployment target: **Remote Device**
 3. Build the solution.
 
 Optional: Create App Packages for sideloading or Store submission.
