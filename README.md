@@ -149,18 +149,6 @@ Before building, ensure the following settings:
 
 Optional: Create App Packages for sideloading or Store submission.
 
----
-
-## Deployment Readiness
-
-The project has been validated using:
-
-- Unity 2021.3 LTS
-- IL2CPP backend
-- ARM64 UWP configuration
-- OpenXR runtime
-- Visual Studio 2022 (v143 toolchain)
-
 A successful UWP build confirms deployment readiness.
 
 ---
