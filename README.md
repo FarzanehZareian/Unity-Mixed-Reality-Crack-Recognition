@@ -18,10 +18,10 @@ This repository contains an open-source, end-to-end mixed reality (MR) framework
 The framework performs on-device inference using Unity Barracuda and visualizes analytical outputs as spatially anchored holographic overlays aligned with the inspected masonry surface. The repository includes the Unity project, deep learning notebooks, model integration scripts, and representative validation resources to support reproducibility, future research, and practical deployment.
 
 <p align="center">
-  <img width="185" alt="image" src="https://github.com/user-attachments/assets/13359c8b-ba9f-42af-a330-d276f80a251d" />
-  <img width="185" alt="image" src="https://github.com/user-attachments/assets/b11cf27d-b91c-4ca1-98b0-462a26cec3d8" />
-  <img width="185" alt="image" src="https://github.com/user-attachments/assets/25cad0ae-233e-4748-b352-f9b9048f49ef" />
-  <img width="185" alt="image" src="https://github.com/user-attachments/assets/f9015a9a-2ec9-456d-a33d-d271743471d6" />
+  <img width="180" alt="image" src="https://github.com/user-attachments/assets/13359c8b-ba9f-42af-a330-d276f80a251d" />
+  <img width="180" alt="image" src="https://github.com/user-attachments/assets/b11cf27d-b91c-4ca1-98b0-462a26cec3d8" />
+  <img width="180" alt="image" src="https://github.com/user-attachments/assets/25cad0ae-233e-4748-b352-f9b9048f49ef" />
+  <img width="180" alt="image" src="https://github.com/user-attachments/assets/f9015a9a-2ec9-456d-a33d-d271743471d6" />
 </p>
 
 <p align="center">
@@ -48,17 +48,17 @@ The framework performs on-device inference using Unity Barracuda and visualizes 
 
 The framework is organized into three modular layers that support real-time mixed reality inspection.
 
-#### 1. Input Acquisition Layer
+### 1. Input Acquisition Layer
 
 - Captures real-time RGB images from the Microsoft HoloLens 2 camera.
 - Preprocesses acquired frames and converts them into tensors for neural network inference.
 
-#### 2. Deep Learning Inference Layer
+### 2. Deep Learning Inference Layer
 
 - Executes ONNX crack segmentation and classification models using Unity Barracuda.
 - Performs low-latency on-device inference in real time.
 
-#### 3. Mixed Reality Visualization and Interaction Layer
+### 3. Mixed Reality Visualization and Interaction Layer
 
 - Displays segmentation masks as spatially anchored holographic overlays.
 - Visualizes the predicted crack type and associated confidence score.
@@ -66,7 +66,7 @@ The framework is organized into three modular layers that support real-time mixe
 - Enables users to toggle segmentation overlays for direct comparison between conventional visual inspection and AI-assisted analysis.
 
 <p align="center">
-  <img width="810" alt="System Architecture" src="https://github.com/user-attachments/assets/37d892f2-d843-4c69-bbdc-596a8c0b175d" />
+  <img width="800" alt="System Architecture" src="https://github.com/user-attachments/assets/37d892f2-d843-4c69-bbdc-596a8c0b175d" />
 </p>
 
 <p align="center">
@@ -92,14 +92,14 @@ The modular architecture facilitates independent testing, maintenance, and futur
 
 The following software components are required to build and deploy the application.
 
-#### Unity
+### Unity
 
 - Unity **2021.3 LTS** (tested on **2021.3.45f2**)
 - Microsoft Mixed Reality Toolkit (MRTK)
 - OpenXR Plugin
 - Unity Barracuda
 
-#### Visual Studio
+### Visual Studio
 
 - Visual Studio 2022
 - Desktop Development with C++
@@ -107,7 +107,7 @@ The following software components are required to build and deploy the applicati
 - Windows 10 SDK (10.0.19041)
 - ARM64 Build Tools (v143)
 
-#### Deployment Target
+### Deployment Target
 
 - Microsoft HoloLens 2
 - Universal Windows Platform (UWP)
@@ -136,7 +136,7 @@ Unity Package Manager will automatically restore all required packages.
 
 Configure the project using the following settings.
 
-#### Build Settings
+### Build Settings
 
 - Platform: Universal Windows Platform (UWP)
 - Target Device: HoloLens
@@ -144,12 +144,12 @@ Configure the project using the following settings.
 - Build Type: D3D11
 - Scripting Backend: IL2CPP
 
-#### Player Settings
+### Player Settings
 
 - API Compatibility Level: .NET Standard 2.1
 - Incremental GC: Enabled
 
-#### XR Plug-in Management
+### XR Plug-in Management
 
 - OpenXR: Enabled
 - Legacy XR: Disabled
