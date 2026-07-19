@@ -1,11 +1,11 @@
 # An End-to-End Deep Learning and Mixed Reality Framework for Automated Crack Inspection of Masonry Structures
 
 ![Unity](https://img.shields.io/badge/Unity-2021.3%20LTS-black?logo=unity)
-![Platform](https://img.shields.io/badge/Platform-UWP-orange)
+![Platform](https://img.shields.io/badge/Platform-UWP-red)
 ![Architecture](https://img.shields.io/badge/Architecture-ARM64-purple)
 ![Backend](https://img.shields.io/badge/Backend-IL2CPP-success)
 ![XR](https://img.shields.io/badge/XR-OpenXR-yellow)
-![Build Status](https://img.shields.io/badge/UWP%20Build-Passing-red)
+![Build Status](https://img.shields.io/badge/UWP%20Build-Passing-grey)
 ![License](https://img.shields.io/badge/License-MIT-brown)
 ![Release](https://img.shields.io/github/v/release/FarzanehZareian/Unity-Mixed-Reality-Crack-Recognition)
 
