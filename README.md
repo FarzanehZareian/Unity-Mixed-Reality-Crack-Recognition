@@ -66,7 +66,7 @@ The framework is organized into three modular layers that support real-time mixe
 - Enables users to toggle segmentation overlays for direct comparison between conventional visual inspection and AI-assisted analysis.
 
 <p align="center">
-  <img width="820" alt="System Architecture" src="https://github.com/user-attachments/assets/37d892f2-d843-4c69-bbdc-596a8c0b175d" />
+  <img width="810" alt="System Architecture" src="https://github.com/user-attachments/assets/37d892f2-d843-4c69-bbdc-596a8c0b175d" />
 </p>
 
 <p align="center">
